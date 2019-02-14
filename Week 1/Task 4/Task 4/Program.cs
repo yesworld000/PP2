@@ -10,17 +10,16 @@ namespace Task_4
     {
         static void Main(string[] args)
         {
+            //creating size of a triangle
             string s = Console.ReadLine();
             int n = int.Parse(s);
 
-            /*int[] a = new int[n];
-
-            string[] nums = Console.ReadLine().Split(new char[] { ',', ';', '#', ' ' });
-            */
+            //making coordinates, i and j
             for(int i=0; i<n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
+                    //giving coordinates where [*] will be
                     if (i >= j) Console.Write("[*]");
                 }
                 Console.Write("\n");

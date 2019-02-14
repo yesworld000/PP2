@@ -4,33 +4,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task_3
+namespace Task3
 {
     class Program
     {
+        //making a function that dublicates numbers
+        private static void dublicate(string[] s, int n)
+        {
+            //our result is a string which is twice bigger
+            string[] s2 = new string[n * 2];
+
+            //dublicating
+            for (int i = 0, j = 0; i < n; ++i)
+            {
+                s2[j++] = s[i];
+                s2[j++] = s[i];
+            }
+
+            //showing result to the screen
+            for (int i = 0; i < 2 * n; ++i)
+                Console.Write(s2[i] + " ");
+        }
+
+
         static void Main(string[] args)
         {
-            string s = Console.ReadLine();
-            int n = int.Parse(s);
+            //creating integer
+            int n = int.Parse(Console.ReadLine());
 
-            int[] a = new int[n];
+            //reading an array with numbers
+            string[] s = Console.ReadLine().Split();
 
-            string s1 = Console.ReadLine();
-            string[] arr = s1.Split();
-
-            for(int i=0; i<2*n; i++)
-            {
-                for(int ){
-                Console.Write()
-            }
-            }
-
-            /*Console.WriteLine(n);
-            for(int i=0; i<n; i++)
-            {
-                Console.WriteLine(arr[i]);
-            }*/
-            
+            //calling a method "dublicate"
+            dublicate(s, n);
+            Console.ReadKey();
         }
     }
 }
