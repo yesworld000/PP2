@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D6E79729-9FE1-4430-AE65-A3E0B8C5B7E5}</ProjectGuid>
+    <ProjectGuid>{F9877329-1BA4-4238-A696-9EED6A2EA043}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task_1</RootNamespace>
-    <AssemblyName>Task 1</AssemblyName>
+    <RootNamespace>FarManager</RootNamespace>
+    <AssemblyName>FarManager</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
